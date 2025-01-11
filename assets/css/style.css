@@ -12,3 +12,10 @@ ul li i {
     height: 500px;
     width: 60%;
 }
+
+
+#nilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
