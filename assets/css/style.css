@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Quicksand&display=swap');
+
 .helo {
     height: 3px;
     background-color: black;
@@ -19,4 +21,40 @@ ul li i {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Center the poem container */
+#nillo {
+    margin-top: 30px;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    background-color: #b6ad6b; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the poem text */
+#nillo p {
+    font-size: 1.2rem; /* Increase font size */
+    line-height: 1.8; /* Improve readability with more line height */
+    color: #333; /* Darker text color */
+    font-family: 'Georgia', serif; /* Use a serif font for a classic look */
+    white-space: pre-line; /* Preserve line breaks in the poem */
+}
+
+/* Add some spacing between stanzas */
+#nillo p {
+    margin-bottom: 1.5rem; /* Space between stanzas */
+}
+
+/* Highlight the first line of each stanza */
+#nillo p::first-line {
+    font-weight: bold; /* Make the first line bold */
+    color: #000; /* Darker color for emphasis */
+}
+
+.hidden {
+    display: none;
 }

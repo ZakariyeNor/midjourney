@@ -44,28 +44,135 @@
 
     <!-- Main section -->
      <section>
-        <!-- Button trigger modal -->
+        <article>
+            <!-- Button trigger modal -->
         <button id="checkform" type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-    Check the api key
-        </button>
-  
-  <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            Check the api key
+                </button>
+          
+          <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="modal-body" class="modal-body">
+                        
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                <div id="modal-body" class="modal-body">
+        </article>
+
+        <p>
+            <button class="btn btn-success btn-lg px-2 mx-3 mt-3 w-60" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                The Kipling poem
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 300px;">
+    
+                    If you can keep your head when all about you
+                Are losing theirs and blaming it on you,
+                If you can trust yourself when all men doubt you,
+                But make allowance for their doubting too;
+                If you can wait and not be tired by waiting,
+                Or being lied about, don’t deal in lies,
+                Or being hated, don’t give way to hating,
+                And yet don’t look too good, nor talk too wise:
                 
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+                If you can dream—and not make dreams your master;
+                If you can think—and not make thoughts your aim;
+                If you can meet with Triumph and Disaster
+                And treat those two impostors just the same;
+                If you can bear to hear the truth you’ve spoken
+                Twisted by knaves to make a trap for fools,
+                Or watch the things you gave your life to, broken,
+                And stoop and build ’em up with worn-out tools:
+                
+                If you can make one heap of all your winnings
+                And risk it on one turn of pitch-and-toss,
+                And lose, and start again at your beginnings
+                And never breathe a word about your loss;
+                If you can force your heart and nerve and sinew
+                To serve your turn long after they are gone,
+                And so hold on when there is nothing in you
+                Except the Will which says to them: ‘Hold on!’
+                
+                If you can talk with crowds and keep your virtue,
+                Or walk with Kings—nor lose the common touch,
+                If neither foes nor loving friends can hurt you,
+                If all men count with you, but none too much;
+                If you can fill the unforgiving minute
+                With sixty seconds’ worth of distance run,
+                Yours is the Earth and everything that’s in it,
+                And—which is more—you’ll be a Man, my son!
+              </div>
             </div>
+          </div>
+        <article>
+            <div class="container">
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Everything</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" id="nillo">Everything’s looted, betrayed and traded,<br>
+                        black death’s wing’s overhead.<br>
+                        Everything’s eaten by hunger, unsated,<br>
+                        so why does a light shine ahead?<br>
+                        
+                        By day, a mysterious wood, near the town,<br>
+                        breathes out cherry, a cherry perfume.<br>
+                        By night, on July’s sky, deep, and transparent,<br>
+                        new constellations are thrown.<br>
+                        
+                        And something miraculous will come <br>
+                        close to the darkness and ruin,<br>
+                        something no-one, no-one, has known,<br>
+                        though we’ve longed for it since we were children.
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Next poem</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">See it through</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" id="nillo">When you're up against a trouble,
+                        Meet it squarely, face to face;
+                        Lift your chin and set your shoulders,
+                        Plant your feet and take a brace.
+                        When it's vain to try to dodge it,
+                        Do the best that you can do;
+                        You may fail, but you may conquer,
+                        See it through!
+                        Black may be the clouds about you
+                        And your future may seem grim,
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first peom</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Open first modal</button>
             </div>
-        </div>
+        </article>
      </section>
 
     <!-- Footer -->

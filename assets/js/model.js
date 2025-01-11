@@ -1,7 +1,3 @@
-API_KEY = "c85477ce27b848b4be7160509251101";
-API_URL = "http://api.weatherapi.com/v1";
-
-
 API_CODE = "zwF3qlgEkeiylVP4ltnxHwWRt6w";
 URL_CODE = "https://ci-jshint.herokuapp.com/api";
 
@@ -42,3 +38,4 @@ function displayKey(data) {
     modalbo.show();
 
 }
+
