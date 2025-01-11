@@ -1,10 +1,14 @@
 .helo {
     height: 3px;
     background-color: black;
-    
 }
 
 ul li i {
     cursor: pointer;
     color: #fff;
+}
+
+#map {
+    height: 500px;
+    width: 60%;
 }
