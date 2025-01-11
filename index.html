@@ -9,7 +9,7 @@
 
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>MidJourney</title>
 </head>
 <body>
@@ -46,7 +46,7 @@
      <section>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-12.col-sm-6.col-md-4.col-lg-3.col-xl-3" id="map">
 
                 </div>
             </div>
@@ -89,7 +89,20 @@
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <!-- Marker cluster CDN -->
+
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+
+    <!-- MAP API -->
+    <script 
+    async
+    defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBstli64_pcoI9hIL3JsGUGdGojagOabgU&libraries=maps,marker&v=beta&callback=initMap"></script>
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/44dbf25b5c.js" crossorigin="anonymous"></script>
+
+    <!-- Custom external JS path -->
+     <script src="assets/js/script.js"></script>
 </body>
 </html>
